@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-Mr. Penguin Slackbot
-A comprehensive Slackbot that can:
-- Send messages
-- Receive and process commands
-- Welcome new team members
-"""
 
 import os
 import re
@@ -17,7 +10,7 @@ import traceback
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from datetime import datetime
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -52,59 +45,6 @@ current_trivia = {
     "channel": None
 }
 
-# ============================================================================
-# WELCOME NEW MEMBERS
-# ============================================================================
-
-@app.event("team_join")
-def welcome_new_member(event, client, logger):
-    """Welcome new team members with a friendly message"""
-    try:
-        user_id = event["user"]["id"]
-        user_info = client.users_info(user=user_id)
-        user_name = user_info["user"]["real_name"] or user_info["user"]["name"]
-        
-        welcome_message = f"""
-🎉 Welcome to the team, *{user_name}*! 🎉
-
-I'm {BOT_NAME}, your friendly team assistant! Here's what I can help you with:
-
-🤖 *Commands I understand:*
-• `@{BOT_NAME} help` - Show available commands
-• `@{BOT_NAME} weather <city>` - Get weather info
-• `@{BOT_NAME} joke` - Tell a penguin joke
-• `@{BOT_NAME} status` - Check bot status
-• `@{BOT_NAME} time` - Get current time
-
-Feel free to ask me anything or use these commands in any channel where I'm present!
-
-Have a great time here! 🐧✨
-        """
-        
-        # Send welcome message to the general channel
-        client.chat_postMessage(
-            channel=WELCOME_CHANNEL,
-            text=welcome_message,
-            username=BOT_NAME
-        )
-        
-        # Also send a direct message to the new user
-        dm_message = f"""
-Welcome, {user_name},
-Welcome to the iceberg!
-        """
-        
-        client.chat_postMessage(
-            channel=user_id,
-            text=dm_message,
-            username=BOT_NAME
-        )
-        
-        logger.info(f"Welcomed new user: {user_name}")
-        
-    except Exception as e:
-        logger.error(f"Error welcoming new member: {e}")
-
 def load_trivia_questions():
     """Load trivia questions from the JSON file"""
     global trivia_questions
@@ -127,7 +67,6 @@ def ask_trivia_question(channel, client):
     current_trivia["question"] = q.get("question")
     current_trivia["type"] = q.get("type", "multiple")
     current_trivia["channel"] = channel
-    # Get the correct answer
     answer = q.get("answer") or q.get("correct_answer")
     current_trivia["answer"] = answer.strip().lower() if answer else None
     # Cancel any previous timer
@@ -139,7 +78,7 @@ def ask_trivia_question(channel, client):
     timer.start()
     # Format question based on type
     if current_trivia["type"] == "boolean":
-        question_text = f"Trivia Time!\n(True/False) {q['question']}\n(Reply with @mr-penguin true! or false! to win!)"
+        question_text = f"Trivia Time!\n(True/False) {q['question']}\n(Reply with @mr-penguin true or false to win!)"
     elif current_trivia["type"] == "multiple":
         # Dynamically create possible_answers if missing
         if "possible_answers" in q:
@@ -147,8 +86,14 @@ def ask_trivia_question(channel, client):
         else:
             choices = q.get("incorrect_answers", []) + [answer]
         random.shuffle(choices)
-        choices_text = '\n'.join([f"- {c}" for c in choices])
-        question_text = f"Trivia Time!\n{q['question']}\nChoices:\n{choices_text}\n(Reply with @mr-penguin <your answer> to win!)"
+        choice_labels = ['a', 'b', 'c', 'd']
+        current_trivia["choices"] = {label: choice for label, choice in zip(choice_labels, choices)}
+        for label, choice in current_trivia["choices"].items():
+            if choice.strip().lower() == current_trivia["answer"]:
+                current_trivia["correct_label"] = label
+                break
+        choices_text = '\n'.join([f"{label}) {choice}" for label, choice in current_trivia["choices"].items()])
+        question_text = f"Trivia Time!\n{q['question']}\nChoices:\n{choices_text}\n(Reply with @mr-penguin a, b, c, or d to win! Alternatively, you can type the answer.)"
     else:
         question_text = f"Trivia Time!\n{q['question']}\n(Reply with @mr-penguin <your answer> to win!)"
     client.chat_postMessage(
@@ -194,7 +139,7 @@ def get_leaderboard():
             leaderboard = json.load(f)
         # Sort by score descending
         sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1]["score"], reverse=True)
-        msg = "🏆 *Leaderboard* 🏆\n"
+        msg = "🏆 *Trivia Leaderboard* 🏆\n"
         for idx, (user_id, entry) in enumerate(sorted_leaderboard[:3], 1):
             msg += f"{idx}. <@{user_id}>: {entry['score']}\n"
         return msg
@@ -207,8 +152,28 @@ def check_trivia_answer(text, user, client, channel):
         # Remove all Slack mentions and extra spaces
         answer_attempt = re.sub(r'<@[^>]+>', '', text)
         answer_attempt = answer_attempt.strip().lower()
-        # Accept answer if it matches
-        if answer_attempt == current_trivia["answer"]:
+        if current_trivia.get("type") == "multiple" and answer_attempt in ['a', 'b', 'c', 'd']:
+            if answer_attempt == current_trivia.get("correct_label"):
+                update_leaderboard(user, user)
+                winner_msg = f"🎉 Congratulations <@{user}>! You answered correctly: {current_trivia['choices'][answer_attempt]}\nNext question coming up...\n{get_leaderboard()}"
+                client.chat_postMessage(
+                    channel=channel,
+                    text=winner_msg,
+                    username=BOT_NAME
+                )
+                # Cancel timer
+                if current_trivia["timer"]:
+                    current_trivia["timer"].cancel()
+                ask_trivia_question(channel, client)
+                return True
+            else:
+                client.chat_postMessage(
+                    channel=channel,
+                    text=f"Sorry, {answer_attempt} is not correct.",
+                    username=BOT_NAME
+                )
+                return False
+        elif answer_attempt == current_trivia["answer"]:
             update_leaderboard(user, user)
             winner_msg = f"🎉 Congratulations <@{user}>! You answered correctly: {current_trivia['answer']}\nNext question coming up...\n{get_leaderboard()}"
             client.chat_postMessage(
@@ -275,11 +240,12 @@ def handle_mention(event, client, logger):
         if check_trivia_answer(text, user, client, channel):
             return
         response = process_command(command, user, client, channel)
-        client.chat_postMessage(
-            channel=channel,
-            text=response if response else "",
-            username=BOT_NAME
-        )
+        if response:
+            client.chat_postMessage(
+                channel=channel,
+                text=response,
+                username=BOT_NAME
+            )
     except Exception as e:
         logger.error(f"Error handling mention: {e}")
         logger.error(traceback.format_exc())

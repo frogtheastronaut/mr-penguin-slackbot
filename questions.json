@@ -5,12 +5,12 @@
       "type": "multiple",
       "difficulty": "hard",
       "category": "Science: Computers",
-      "question": "According to DeMorgan&#039;s Theorem, the Boolean expression (AB)&#039; is equivalent to:",
-      "correct_answer": "A&#039; + B&#039;",
+      "question": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:",
+      "correct_answer": "A' + B'",
       "incorrect_answers": [
-        "A&#039;B + B&#039;A",
-        "A&#039;B&#039;",
-        "AB&#039; + AB"
+        "A'B + B'A",
+        "A'B'",
+        "AB' + AB"
       ]
     },
     {
@@ -75,7 +75,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "category": "Science: Computers",
-      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
+      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
       "correct_answer": "Final",
       "incorrect_answers": [
         "Static",
@@ -99,7 +99,7 @@
       "type": "multiple",
       "difficulty": "medium",
       "category": "Science: Computers",
-      "question": "What was Bitcoin&#039;s block size limit in 2010?",
+      "question": "What was Bitcoin's block size limit in 2010?",
       "correct_answer": "1 MB",
       "incorrect_answers": [
         "1GB",
@@ -146,10 +146,10 @@
       "difficulty": "easy",
       "category": "Science: Computers",
       "question": "What does the Prt Sc button do?",
-      "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+      "correct_answer": "Captures what's on the screen and copies it to your clipboard",
       "incorrect_answers": [
         "Nothing",
-        "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
+        "Saves a .png file of what's on the screen in your screenshots folder in photos",
         "Closes all windows"
       ]
     },
@@ -201,7 +201,7 @@
       "type": "boolean",
       "difficulty": "medium",
       "category": "Science: Computers",
-      "question": "FLAC stands for &quot;Free Lossless Audio Condenser&quot;&#039;",
+      "question": "FLAC stands for \"Free Lossless Audio Condenser\"'",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -269,7 +269,7 @@
       "type": "multiple",
       "difficulty": "medium",
       "category": "Science: Computers",
-      "question": "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+      "question": "Nvidia's headquarters are based in which Silicon Valley city?",
       "correct_answer": "Santa Clara",
       "incorrect_answers": [
         "Palo Alto",
@@ -315,7 +315,7 @@
       "type": "multiple",
       "difficulty": "medium",
       "category": "Science: Computers",
-      "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+      "question": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
       "correct_answer": "Year",
       "incorrect_answers": [
         "Four Years",
@@ -409,7 +409,7 @@
       "type": "multiple",
       "difficulty": "hard",
       "category": "Science: Computers",
-      "question": "Released in 2001, the first edition of Apple&#039;s Mac OS X operating system (version 10.0) was given what animal code name?",
+      "question": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
       "correct_answer": "Cheetah",
       "incorrect_answers": [
         "Puma",
@@ -457,7 +457,7 @@
       "type": "boolean",
       "difficulty": "easy",
       "category": "Science: Computers",
-      "question": "In most programming languages, the operator ++ is equivalent to the statement &quot;+= 1&quot;.",
+      "question": "In most programming languages, the operator ++ is equivalent to the statement \"+= 1\".",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -505,7 +505,7 @@
       "correct_answer": "Midnight, January 1, 1970",
       "incorrect_answers": [
         "Midnight, July 4, 1976",
-        "Midnight on the creator of Unix&#039;s birthday",
+        "Midnight on the creator of Unix's birthday",
         "Midnight, July 4, 1980"
       ]
     },
@@ -513,7 +513,7 @@
       "type": "multiple",
       "difficulty": "medium",
       "category": "Science: Computers",
-      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "question": "Which internet company began life as an online bookstore called 'Cadabra'?",
       "correct_answer": "Amazon",
       "incorrect_answers": [
         "eBay",
@@ -537,7 +537,7 @@
       "type": "boolean",
       "difficulty": "easy",
       "category": "Science: Computers",
-      "question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.",
+      "question": "The programming language \"Python\" is based off a modified version of \"JavaScript\".",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -577,6 +577,1826 @@
         "Long Taco Service",
         "Ludicrous Transfer Speed",
         "Ludicrous Turbo Speed"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The first computer mouse was made of wood.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "The first computer virus was created in 1986.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the name of the first computer programmer?",
+      "correct_answer": "Ada Lovelace",
+      "incorrect_answers": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Grace Hopper"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "\"Pi\" is an irrational number.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "\"e\" is an irrational number.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The number \"0\" is a prime number.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "\"i\" is the square root of -1.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "\"e\" is the base of what logarithm?",
+      "correct_answer": "Natural Logarithm",
+      "incorrect_answers": [
+        "Binary Logarithm",
+        "Decimal Logarithm",
+        "Trigonometric Logarithm"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The binary number \"101001101\" is equivalent to the Decimal number \"334\"",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the Roman numeral for 500?",
+      "correct_answer": "D",
+      "incorrect_answers": [
+        "L",
+        "C",
+        "X"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which of the following dice is not a platonic solid?",
+      "correct_answer": "10-sided die",
+      "incorrect_answers": [
+        "12-sided die",
+        "20-sided die",
+        "8-sided die"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "How many zeros are there in a googol?",
+      "correct_answer": "100",
+      "incorrect_answers": [
+        "10",
+        "1,000",
+        "1,000,000"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "In Topology, the complement of an open set is a closed set.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The notion of a \"set that contains all sets which do not contain themselves\" is a paradoxical idea attributed to which English philosopher?",
+      "correct_answer": "Bertrand Russel",
+      "incorrect_answers": [
+        "Francis Bacon",
+        "John Locke",
+        "Alfred North Whitehead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting \"Eureka\" after discovering the principle of displacement?",
+      "correct_answer": "Archimedes",
+      "incorrect_answers": [
+        "Euclid",
+        "Homer",
+        "Eratosthenes"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Zero factorial is equal to zero. ",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The 'Squaring the Circle' problem is solvable.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "Which mathematician refused the Fields Medal?",
+      "correct_answer": "Grigori Perelman",
+      "incorrect_answers": [
+        "Andrew Wiles",
+        "Terence Tao",
+        "Edward Witten"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "How many sides does a heptagon have?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "8",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "At what temperature does temp in &deg;C equal temp in &deg;F?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "+40",
+        "0",
+        "+100"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "You can square root a negative number with an imaginary number \"i\".",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "A 'Millinillion' is a real number.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the first Mersenne prime exponent over 1000?",
+      "correct_answer": "1279",
+      "incorrect_answers": [
+        "2203",
+        "1009",
+        "1069"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "In Roman Numerals, what does XL equate to?",
+      "correct_answer": "40",
+      "incorrect_answers": [
+        "60",
+        "15",
+        "90"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What prime number comes next after 19?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "25",
+        "21",
+        "27"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+      "correct_answer": "Folium of Descartes",
+      "incorrect_answers": [
+        "Elliptic Paraboloid of Descartes",
+        "Cartesian Coordinates",
+        "Descarte's Helicoid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many zeptometres are inside one femtometre?",
+      "correct_answer": "1,000,000",
+      "incorrect_answers": [
+        "10",
+        "1,000,000,000",
+        "1000"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "A universal set, or a set that contains all sets, exists.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the alphanumeric representation of the imaginary number?",
+      "correct_answer": "i",
+      "incorrect_answers": [
+        "e",
+        "n",
+        "x"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "A scalene triangle has two sides of equal length.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following mathematicians made major contributions to game theory?",
+      "correct_answer": "John Von Neumann",
+      "incorrect_answers": [
+        "Carl Friedrich Gauss",
+        "Leonhard Euler",
+        "Stefan Banach"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "The set of all algebraic numbers is countable.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the equation for the area of a sphere?",
+      "correct_answer": "(4/3)&pi;r^3",
+      "incorrect_answers": [
+        "4&pi;r^2",
+        "(1/3)&pi;hr^2",
+        "&pi;r^4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What's the square root of 49?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "4",
+        "12",
+        "9"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+      "correct_answer": "33.9",
+      "incorrect_answers": [
+        "30.0",
+        "27.4",
+        "10.6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The French mathematician Évariste Galois is primarily known for his work in which?",
+      "correct_answer": "Galois Theory",
+      "incorrect_answers": [
+        "Galois' Continued Fractions",
+        "Galois' Method for PDE's ",
+        "Abelian Integration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Integration is the reverse of what mathematical operation?",
+      "correct_answer": "Derivation",
+      "incorrect_answers": [
+        "Division",
+        "Standard Deviation",
+        "Multiplication"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "To the nearest whole number, how many radians are in a whole circle?",
+      "correct_answer": "6",
+      "incorrect_answers": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What type of angle is greater than 90&deg;?",
+      "correct_answer": "Obtuse",
+      "incorrect_answers": [
+        "Acute",
+        "Right",
+        "Straight"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What is the derivative of sin(x)",
+      "correct_answer": "cos(x)",
+      "incorrect_answers": [
+        "csc(x)",
+        "-cos(x)",
+        "-sin(x)"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The sum of any two odd integers is odd.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
+      "correct_answer": "90",
+      "incorrect_answers": [
+        "180",
+        "270",
+        "0"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "E = MC3",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "How many books are in Euclid's Elements of Geometry?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "8",
+        "10",
+        "17"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What type of function is x&sup2;+2x+1?",
+      "correct_answer": "Quadratic",
+      "incorrect_answers": [
+        "Rational",
+        "Linear",
+        "Exponential"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What Greek letter is used to signify summation?",
+      "correct_answer": "Sigma",
+      "incorrect_answers": [
+        "Delta",
+        "Alpha",
+        "Omega"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+      "correct_answer": "1729",
+      "incorrect_answers": [
+        "91",
+        "561",
+        "4104"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "In the hexadecimal system, what number comes after 9?",
+      "correct_answer": "The Letter A",
+      "incorrect_answers": [
+        "10",
+        "The Number 0",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The decimal number 31 in hexadecimal would be what?",
+      "correct_answer": "1F",
+      "incorrect_answers": [
+        "3D",
+        "2E",
+        "1B"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+      "correct_answer": "One Quintillionth",
+      "incorrect_answers": [
+        "One Billionth",
+        "One Quadrillionth",
+        "One Septillionth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+      "correct_answer": "Galois",
+      "incorrect_answers": [
+        "Abel",
+        "Euler",
+        "Gauss"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "What is the derivative of Acceleration with respect to time?",
+      "correct_answer": "Jerk",
+      "incorrect_answers": [
+        "Shift",
+        "Bump",
+        "Slide"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "What numbers are in the 5th row of Pascal's Triangle?",
+      "correct_answer": "1 4 6 4 1",
+      "incorrect_answers": [
+        "1 3 3 1",
+        "1 5 10 10 5 1",
+        "1 6 15 20 15 6 1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Mathematics",
+      "question": "What is the correct order of operations for solving equations?",
+      "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+      "incorrect_answers": [
+        "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+        "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+        "The order in which the operations are written."
+      ]
+    },
+ {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a Fallout protagonist?",
+      "correct_answer": "Tunnel Snake",
+      "incorrect_answers": [
+        "Courier",
+        "Lone Wanderer",
+        "Vault Dweller"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Star Wars: Republic Commando (2005), what is the name of the squad that you play as?",
+      "correct_answer": "Delta Squad",
+      "incorrect_answers": [
+        "Omega Squad",
+        "Echo Squad",
+        "Alpha Squad"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these levels does NOT appear in the console/PC versions of the game \"Sonic Generations\"?",
+      "correct_answer": "Mushroom Hill",
+      "incorrect_answers": [
+        "City Escape",
+        "Planet Wisp",
+        "Sky Sanctuary"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which company is the one responsible for creating the strategy videogame Stellaris?",
+      "correct_answer": "Paradox Development Studio",
+      "incorrect_answers": [
+        "Overkill Software",
+        "Tripwire Interactive LLC",
+        "Ensemble Studios"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which one of these characters was first introduced in Sonic Boom: Rise of Lyric?",
+      "correct_answer": "Sticks the Badger",
+      "incorrect_answers": [
+        "Mighty the Armadillo",
+        "Espio the Chameleon",
+        "Rouge the Bat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Hitman: Blood Money, what is the name of the target in the mission \"Death of a Showman\"?",
+      "correct_answer": "Joseph Clarence",
+      "incorrect_answers": [
+        "The Swing King",
+        "Maynard John",
+        "Manuel Delgado"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following names is the \"Mega Man\" Franchise known as in Japan?",
+      "correct_answer": "Rockman",
+      "incorrect_answers": [
+        "Paperman",
+        "Scissorsman",
+        "Mega Man"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Disgaea series, any character can equip any weapon.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the English voice actor for Sora from the Kingdom Hearts series?",
+      "correct_answer": "Haley Joel Osment",
+      "incorrect_answers": [
+        "Kōki Uchiyama",
+        "Jesse McCartney",
+        "Miyu Irino"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The mobile game \"Jetpack Joyride\" was released in what year? ",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2012",
+        "2009",
+        "2014"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is NOT a playable character in the 2016 video game Overwatch?",
+      "correct_answer": "Invoker",
+      "incorrect_answers": [
+        "Mercy",
+        "Winston",
+        "Zenyatta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What snowy mob was added in Minecraft 1.10?",
+      "correct_answer": "Polar bears",
+      "incorrect_answers": [
+        "Eskimos",
+        "Penguins",
+        "Walking TNT"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many copies of the notorious E.T. game for the Atari 2600 did Atari end up selling?",
+      "correct_answer": "1.5 Million",
+      "incorrect_answers": [
+        "1 Million",
+        "250 Thousand",
+        "Less than 250 Thousand"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What year was the game Dishonored released?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2011",
+        "2008",
+        "2013"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "The scrapped Sonic the Hedgehog 2 level \"Hidden Palace Zone\" was later reused in the iOS port of the game. ",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the first jedi that Starkiller had to kill in Star Wars: The Force Unleashed?",
+      "correct_answer": "Rahm Kota",
+      "incorrect_answers": [
+        "Ahsoka Tano",
+        "Kazdan Paratus",
+        "Kento Marek"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Geometry Dash, what is level 13?",
+      "correct_answer": "Electroman Adventures",
+      "incorrect_answers": [
+        "Theory of Everything",
+        "Clubstep ",
+        "Clutterfunk"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In \"Minecraft\", gold tools are faster than diamond tools.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Half-Life series, Gordon Freeman's signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Pok&eacute;mon series, what is Palkia's hidden ability?",
+      "correct_answer": "Telepathy",
+      "incorrect_answers": [
+        "Pressure",
+        "Water Bubble",
+        "Hydration"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main antagonist in the Portal franchise?",
+      "correct_answer": "GLaDOS",
+      "incorrect_answers": [
+        "Chell",
+        "Wheatley",
+        "Rick"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In which year was League of Legends released?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2010",
+        "2003",
+        "2001"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following characters were considered for inclusion in Super Smash Bros. Melee?",
+      "correct_answer": "Lucas",
+      "incorrect_answers": [
+        "Mega Man",
+        "Meta Knight",
+        "Diddy Kong"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What element does the Zinogre use in Monster Hunter?",
+      "correct_answer": "Thunder",
+      "incorrect_answers": [
+        "Ice",
+        "Fire",
+        "Water"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which is the protagonist of Bioshock Infinite?",
+      "correct_answer": "Booker DeWitt",
+      "incorrect_answers": [
+        "Zachary Comstock",
+        "Arthas Menethil",
+        "Herbie Hancock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the voice actor for Snake in Metal Gear Solid V: The Phantom Pain?",
+      "correct_answer": "Kiefer Sutherland",
+      "incorrect_answers": [
+        "David Hayter",
+        "Norman Reedus",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the hardest possible difficulty in \"Deus Ex: Mankind Divided\"?",
+      "correct_answer": "I Never Asked For This",
+      "incorrect_answers": [
+        "Nightmare",
+        "Extreme",
+        "Guru"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What's the Team Fortress 2 Scout's city of origin?",
+      "correct_answer": "Boston",
+      "incorrect_answers": [
+        "Sydney",
+        "Detroit",
+        "New York"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these Generation 1 Pokemon did NOT have an evolution in Generation 4?",
+      "correct_answer": "Jynx",
+      "incorrect_answers": [
+        "Electabuzz",
+        "Magmar",
+        "Rhydon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Splatoon, what is the age that inklings can freely change between squid and humanoid forms?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "10"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In \"World of Warcraft,\" what dragon appears in the human guise of Lord Victor Nefarius?",
+      "correct_answer": "Nefarian",
+      "incorrect_answers": [
+        "Nefarius",
+        "Neltharion",
+        "Nefaran"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In \"Super Mario 3D World\", the Double Cherry power-up originated from a developer accidentally making two characters controllable.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which psychopath(s) in Dead Rising 1 gave you the small chainsaw?",
+      "correct_answer": "Adam the Clown",
+      "incorrect_answers": [
+        "Cliff Hudson",
+        "The convicts",
+        "Larry the butcher"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What year was the game Team Fortress 2 released?",
+      "correct_answer": "2007",
+      "incorrect_answers": [
+        "2009",
+        "2005",
+        "2010"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the survival horror game, \"Cry of Fear,\" what was the name of Simon's close friend/potential love interest?",
+      "correct_answer": "Sophie",
+      "incorrect_answers": [
+        "Olivia",
+        "Jessica",
+        "Alice"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What does IWHBYD stand for on the skull in the Halo series?",
+      "correct_answer": "I Would Have Been Your Daddy",
+      "incorrect_answers": [
+        "I Wanna Have Babies You Down",
+        "I Would Hate Being Your Driver",
+        "I Would Have Bought Your Dog"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "There are 2 player roles in Trouble in Terrorist Town.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which video game earned music composer Mike Morasky the most awards for his work?",
+      "correct_answer": "Portal 2",
+      "incorrect_answers": [
+        "Left 4 Dead 2",
+        "Team Fortress 2",
+        "Counter-Strike: Global Offensive"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of these is not a wonder weapon in \"Call Of Duty: Zombies\"?",
+      "correct_answer": "R115 Resonator",
+      "incorrect_answers": [
+        "GKZ-45 Mk3",
+        "Ray Gun",
+        "Scavenger"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the main character in the video game \"Just Cause 3\"?",
+      "correct_answer": "Rico Rodriguez",
+      "incorrect_answers": [
+        "Tom Sheldon",
+        "Marcus Holloway",
+        "Mario Frigo"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "The name of the main character of the video game \"The Legend of Zelda\", is Zelda.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first game in the \"Battlefield\" series?",
+      "correct_answer": "Battlefield 1942",
+      "incorrect_answers": [
+        "Battlefield Vietnam",
+        "Battlefield 2",
+        "Battlefield 1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the video game, Half-life, what event started the Half-life universe as we know today?",
+      "correct_answer": "The Resonance Cascade",
+      "incorrect_answers": [
+        "World War 3",
+        "The Xen Attack",
+        "The Black Mesa Nuke"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "Given that all party members are maxed, who is the fastest party member in Super Mario RPG: Legend of The Seven Stars?",
+      "correct_answer": "Geno",
+      "incorrect_answers": [
+        "Mario",
+        "Bowser",
+        "Peach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the game \"The Sims\", how many Simoleons does each family start with?",
+      "correct_answer": "20,000",
+      "incorrect_answers": [
+        "10,000",
+        "15,000",
+        "25,000"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name the location-based augmented reality game developed by Niantic before Pok&eacute;mon GO?",
+      "correct_answer": "Ingress",
+      "incorrect_answers": [
+        "Aggress",
+        "Regress",
+        "Digress"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In \"Need for Speed: Porsche Unleashed\", the player can only drive cars manufactured by Porsche.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Sonic the Hedgehog game was originally supposed to be packaged with Sonic 3, but was cut in half due to time constraints?",
+      "correct_answer": "Sonic &amp; Knuckles",
+      "incorrect_answers": [
+        "Sonic 2",
+        "Sonic CD",
+        "Sonic 3D Blast"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In \"Portal 2\", Cave Johnson started out Aperture Science as a shower curtain company.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the videogame Bully, what is the protagonist's last name?",
+      "correct_answer": "Hopkins",
+      "incorrect_answers": [
+        "Smith",
+        "Kowalski",
+        "Crabblesnitch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What organ of the body produces bile?",
+      "correct_answer": "Liver",
+      "incorrect_answers": [
+        "Gallbladder",
+        "Pancreas",
+        "Stomach"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "You are allowed to sell your soul on eBay.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The \"fairy\" type made it's debut in which generation of the Pokemon core series games?",
+      "correct_answer": "6th",
+      "incorrect_answers": [
+        "2nd",
+        "7th",
+        "4th"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The commercial UK channel ITV stands for \"International Television\".",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Francis Bacon died from a fatal case of pneumonia while he was attempting to preserve meat by stuffing a chicken with snow.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+      "correct_answer": "Spruce Goose",
+      "incorrect_answers": [
+        "Noah's Ark",
+        "Fat Man",
+        "Trojan Horse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Named after the mallow flower, mauve is a shade of what?",
+      "correct_answer": "Purple",
+      "incorrect_answers": [
+        "Red",
+        "Brown",
+        "Pink"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the name of Poland in Polish?",
+      "correct_answer": "Polska",
+      "incorrect_answers": [
+        "Pupcia",
+        "Polszka",
+        "P&oacute;land"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which candy is NOT made by Mars?",
+      "correct_answer": "Almond Joy",
+      "incorrect_answers": [
+        "M&amp;M's",
+        "Twix",
+        "Snickers"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the closest planet to our solar system's sun?",
+      "correct_answer": "Mercury",
+      "incorrect_answers": [
+        "Mars",
+        "Jupiter",
+        "Earth"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+      "correct_answer": "28%",
+      "incorrect_answers": [
+        "13%",
+        "20%",
+        "7%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What word represents the letter 'T' in the NATO phonetic alphabet?",
+      "correct_answer": "Tango",
+      "incorrect_answers": [
+        "Target",
+        "Taxi",
+        "Turkey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "When was Hubba Bubba first introduced?",
+      "correct_answer": "1979",
+      "incorrect_answers": [
+        "1984",
+        "1972",
+        "1980"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Before the 19th Century, the \"Living Room\" was originally called the...",
+      "correct_answer": "Parlor",
+      "incorrect_answers": [
+        "Open Room",
+        "Sitting Room",
+        "Loft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What alcoholic drink is mainly made from juniper berries?",
+      "correct_answer": "Gin",
+      "incorrect_answers": [
+        "Vodka",
+        "Rum",
+        "Tequila"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What alcoholic drink is made from molasses?",
+      "correct_answer": "Rum",
+      "incorrect_answers": [
+        "Gin",
+        "Vodka",
+        "Whisky"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The color orange is named after the fruit.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What year was the RoboSapien toy robot released?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2000",
+        "2001",
+        "2006"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The architect known as Le Corbusier was an important figure in what style of architecture?",
+      "correct_answer": "Modernism",
+      "incorrect_answers": [
+        "Neoclassical",
+        "Baroque",
+        "Gothic Revival"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "This field is sometimes known as \"The Dismal Science.\"",
+      "correct_answer": "Economics",
+      "incorrect_answers": [
+        "Philosophy",
+        "Politics",
+        "Physics"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "In flight systems, what does the initialism \"TCAS\" stand for?",
+      "correct_answer": "Traffic Collision Avoidance System",
+      "incorrect_answers": [
+        "Traffic Communication Alert System",
+        "Traffic Configuration Alignment System",
+        "Traffic Call-sign Abbreviation System"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "What was the third country to have a McDonald's restaurant?",
+      "correct_answer": "Costa Rica",
+      "incorrect_answers": [
+        "Japan",
+        "France",
+        "Australia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which logical fallacy means to attack the character of your opponent rather than their arguments?",
+      "correct_answer": "Ad hominem",
+      "incorrect_answers": [
+        "Post hoc ergo propter hoc",
+        "Tu quoque",
+        "Argumentum ad populum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which sign of the zodiac is represented by the Crab?",
+      "correct_answer": "Cancer",
+      "incorrect_answers": [
+        "Libra",
+        "Virgo",
+        "Sagittarius"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "\"Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.\" is a grammatically correct sentence.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the highest number of Michelin stars a restaurant can receive?",
+      "correct_answer": "Three",
+      "incorrect_answers": [
+        "Four",
+        "Five",
+        "Six"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The new One World Trade Center in Manhattan, New York City was designed by which architect? ",
+      "correct_answer": "David Childs",
+      "incorrect_answers": [
+        "Bjarke Ingels",
+        "Michael Arad",
+        "Fumihiko Maki"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "The Quadrangularis Reversum is best described as which of the following?",
+      "correct_answer": "A percussion instrument",
+      "incorrect_answers": [
+        "A building in Oxford University",
+        "A chess move",
+        "A geometric theorem"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What step in cellular respiration forms ATP?",
+      "correct_answer": "Oxidative Phosphorylation",
+      "incorrect_answers": [
+        "Glycolysis",
+        "Pyruvate Oxidation",
+        "Calvin Cycle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+      "correct_answer": "Cube",
+      "incorrect_answers": [
+        "Sphere",
+        "Cylinder",
+        "Pyramid"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "It is automatically considered entrapment in the United States if the police sell you illegal substances without revealing themselves.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which is the second largest native language spoken in Spain by numbers of speakers?",
+      "correct_answer": "Catalan",
+      "incorrect_answers": [
+        "Portuguese",
+        "Spanish",
+        "French"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "Which country has the most Trappist breweries?",
+      "correct_answer": "Belgium",
+      "incorrect_answers": [
+        "Netherlands",
+        "France",
+        "USA"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "In 2010, Twitter and the United States Library of Congress partnered together to archive every tweet by American citizens.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of the following is the IATA code for Manchester Airport?",
+      "correct_answer": "MAN",
+      "incorrect_answers": [
+        "EGLL",
+        "LHR",
+        "EGCC"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The Mexican Beer \"Corona\" is what type of beer?",
+      "correct_answer": "Pale Lager",
+      "incorrect_answers": [
+        "India Pale Ale",
+        "Pilfsner",
+        "Baltic Porter"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What style of beer will typically have a higher than average hop content?",
+      "correct_answer": "India Pale Ale",
+      "incorrect_answers": [
+        "Stout",
+        "Extra Special Bitter",
+        "Scotch Ale"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Adolf Hitler was born in Australia. ",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "In a standard set of playing cards, which is the only king without a moustache?",
+      "correct_answer": "Hearts",
+      "incorrect_answers": [
+        "Spades",
+        "Diamonds",
+        "Clubs"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Electronic music producer Kygo's popularity skyrocketed after a certain remix. Which song did he remix?",
+      "correct_answer": "Ed Sheeran - I See Fire",
+      "incorrect_answers": [
+        "Marvin Gaye - Sexual Healing",
+        "Coldplay - Midnight",
+        "a-ha - Take On Me"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "NCIS stands for \"Navy Corps Investigative Service\"",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Of the following months, which has the most amount of days?",
+      "correct_answer": "December",
+      "incorrect_answers": [
+        "April",
+        "September",
+        "November "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the Swedish word for \"window\"?",
+      "correct_answer": "F&ouml;nster",
+      "incorrect_answers": [
+        "H&aring;l",
+        "Sk&auml;rm",
+        "Ruta"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "If someone said \"you are olid\", what would they mean?",
+      "correct_answer": "You smell extremely unpleasant.",
+      "incorrect_answers": [
+        "You are out of shape/weak.",
+        "Your appearance is repulsive.",
+        "You are incomprehensible/an idiot."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which film star has his statue in Leicester Square?",
+      "correct_answer": "Charlie Chaplin",
+      "incorrect_answers": [
+        "Paul Newman",
+        "Rowan Atkinson ",
+        "Alfred Hitchcock"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the last letter of the Greek alphabet?",
+      "correct_answer": "Omega",
+      "incorrect_answers": [
+        "Mu",
+        "Epsilon",
+        "Kappa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What does the F stand for in the FBI?",
+      "correct_answer": "Federal",
+      "incorrect_answers": [
+        "Foreign",
+        "Formal",
+        "First"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The buried remains of which English explorer of Australia were found in London  in January 2019? ",
+      "correct_answer": "Matthew Flinders",
+      "incorrect_answers": [
+        "William Bourke",
+        "Abel Tasman",
+        "Dirk Hartog"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "What is Tasmania?",
+      "correct_answer": "An Australian State",
+      "incorrect_answers": [
+        "A flavor of Ben and Jerry's ice-cream",
+        "A Psychological Disorder",
+        "The Name of a Warner Brothers Cartoon Character"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of Japanese descent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
       ]
     }
   ]
