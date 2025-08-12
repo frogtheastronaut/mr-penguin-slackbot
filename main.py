@@ -17,6 +17,16 @@ import traceback
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Build path to .env in the same folder
+dotenv_path = os.path.join(BASE_DIR, '.env')
+
+# Load it
+load_dotenv(dotenv_path)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
